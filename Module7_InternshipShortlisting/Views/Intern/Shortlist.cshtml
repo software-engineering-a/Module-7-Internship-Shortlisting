@@ -9,7 +9,7 @@
 <form asp-action="Shortlist" method="get">
     <div class="form-actions no-color">
         <p>
-            Find by name: <input type="text" name="SearchString" value="@ViewData["currentFilter"]" />&nbsp;
+            Find by name: &nbsp;<input type="text" name="SearchString" value="@ViewData["currentFilter"]" />&nbsp;
             <input type="submit" value="Search" class="btn btn-default" />
         </p>
     </div>
@@ -20,25 +20,25 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Name)
+            Name
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Designation)
+            Designation
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.YearsofExperience)
+            Years of Experience
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.City)
+            City
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Degree)
+            Degree
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DepartmentofInterest)
+            Department of Interest
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Institute)
+            Institute
         </th>
         <th></th>
     </tr>

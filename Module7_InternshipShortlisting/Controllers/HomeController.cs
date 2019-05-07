@@ -26,5 +26,6 @@ namespace Module7_InternshipShortlisting.Controllers
 
             return View();
         }
+
     }
 }

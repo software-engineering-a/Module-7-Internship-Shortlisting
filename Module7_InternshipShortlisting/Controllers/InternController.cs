@@ -39,5 +39,11 @@ namespace Module7_InternshipShortlisting.Controllers
 
             return View(await selectIntern.AsNoTracking().ToListAsync());
         }
+
+        public ActionResult Details (int id = 0)
+        {
+            Candidate candidate = _context.Candidates.Find(id);
+            return View(candidate);
+        }
     }
 }
